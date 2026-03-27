@@ -77,7 +77,7 @@ export function CalendarGrid({ identity, onLogout }: CalendarGridProps) {
     <div className="min-h-screen bg-white">
       {/* Top bar */}
       <header className="sticky top-0 z-20 bg-white border-b border-stone-200 px-4 py-3 flex items-center justify-between">
-        <h1 className="text-base font-semibold text-stone-900">Family Calendar</h1>
+        <h1 className="text-base font-semibold text-stone-900">Deployment Calendar</h1>
         <div className="flex items-center gap-2">
           <Button variant="ghost" size="icon" onClick={() => setYear((y) => y - 1)}>
             <ChevronLeft className="w-4 h-4" />

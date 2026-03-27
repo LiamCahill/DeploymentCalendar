@@ -60,7 +60,7 @@ export function PassphraseGate({ onAuthenticated }: PassphraseGateProps) {
     <div className="min-h-screen bg-stone-50 flex items-center justify-center p-4">
       <div className="w-full max-w-sm bg-white rounded-2xl shadow-sm border border-stone-200 p-8">
         <div className="mb-8 text-center">
-          <h1 className="text-2xl font-semibold text-stone-900 mb-1">Family Calendar</h1>
+          <h1 className="text-2xl font-semibold text-stone-900 mb-1">Deployment Calendar</h1>
           <p className="text-sm text-stone-500">Enter the passphrase to continue</p>
         </div>
 

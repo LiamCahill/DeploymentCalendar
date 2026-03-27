@@ -131,11 +131,11 @@ function PdfDocument({ year, month, days }: { year: number; month: number; days:
   const title = `${MONTH_NAMES[month]} ${year}`
 
   return (
-    <Document title={title} author="Family Calendar">
+    <Document title={title} author="Deployment Calendar">
       {/* Title page */}
       <Page size="A4" style={styles.titlePage}>
         <Text style={styles.titleText}>{title}</Text>
-        <Text style={styles.subtitle}>Family Calendar</Text>
+        <Text style={styles.subtitle}>Deployment Calendar</Text>
       </Page>
 
       {/* Content page */}
