@@ -145,13 +145,13 @@ function PdfDocument({ year, month, days }: { year: number; month: number; days:
           const dayNum = parseInt(d, 10)
 
           return (
-            <View key={date} style={styles.daySection} wrap={false}>
+            <View key={date} style={styles.daySection}>
               <Text style={styles.dayHeader}>
                 {MONTH_NAMES[month]} {dayNum}
               </Text>
 
               {posts.map((post) => (
-                <View key={post.id} style={styles.postContainer}>
+                <View key={post.id} style={styles.postContainer} wrap={false}>
                   <View style={styles.authorRow}>
                     <View
                       style={[styles.colorDot, { backgroundColor: post.author_color }]}
